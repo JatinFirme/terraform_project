@@ -1,10 +1,10 @@
 # Steps to create terraform_project
-# Create VPC
-# Create Internet Gateway
-# Create Custom Route Table
-# Create a Subnet
-# Associate subnet with Route Table
-# Create Security Group to allow port 22,80,443
-# Create a network interface with an ip in the subnet that was created in step 4
-# Assign an elastic IP to the network interface created in step 7
-# Create Ubuntu server and install/enable apache2
+1) Create VPC
+2) Create an Internet Gateway
+3) Create a Custom Route Table
+4) Create a Subnet
+5) Associate subnet with Route Table
+6) Create a Security Group to allow ports 22,80,443
+7) Create a network interface with ip in the subnet that was created in Step 4
+8) Assign an elastic IP to the network interface created in Step 7
+9) Create an Ubuntu server and install/enable apache2
